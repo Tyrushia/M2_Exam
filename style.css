@@ -1,0 +1,21 @@
+.row {
+    height: 500px;
+}
+.column {
+    float: left;
+    width: 300px;
+    height: 250px;
+
+}
+.column2 {
+    float: right;
+    width: 800px;
+    height: 400px;
+}
+
+/*Clear floats after the columns */
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
