@@ -1,5 +1,5 @@
 .column {
-    border: 3px solid black;
+    
     float: left;
     width: 20%;
     height: 100vh;
@@ -28,10 +28,12 @@
     
 }
 table{
-    
+    border: 3px solid black;
     height: 100px;
     width: 100%;
-
+    border-radius: 10px ;
+    text-align: center;
+    font-weight:bold;
 
 
 }
@@ -39,12 +41,15 @@ th {
     border: 2px solid black;
     height: 70px;
     border-radius: 2ch;
+    font-weight:bold;
+    
 }
 tr,td{
     border: 2px solid black;
     height: 50px;
     border-radius: 2ch;
     padding: 10px;
+    font-weight:bold;
 
 }
 
@@ -55,7 +60,7 @@ tr,td{
 }
 
 body{
-    background: rgba(253, 187,45,1);
+    background: rgb(255, 234, 187);
 }
 
 .wrapper{

@@ -59,7 +59,7 @@ function displayResult()
     img.src = image.src;
     
 
-    if (img.getAttribute('src')=='Beetle.jpg'){
+    if (image.getAttribute('src')=='Beetle.jpg'){
         x.innerHTML='John';
     }
     else if (image.getAttribute('src')=='Elephant.jpg'){
