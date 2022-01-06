@@ -19,7 +19,7 @@
         <div class="row">
 
             <div class="column" style="background-color: #FFFFF0;">
-                <table>
+                <table id='table'>
                     <tr>
                         <th>
                             Matches
@@ -36,17 +36,24 @@
                     <div class="row">
                         <img src="Beetle.jpg" id="image">
                     </div>
+                    <label id = labelchange>
+                        John
+                    </label>
                     <div class="row">
                         <div class="column3" style="background-color: #CCCCFF;">
-                            <button onclick="btn()"> Next &#8594</button>
+                            <button type ='button' onclick="displayResult()">
+                                <h2 style="color:red;">&#x2764</h2>
+                            </button>
                         </div>
                         <div class="column3" style="background-color: #CCCCFF;">
-                        <button onclick="btn()"> Next &#8594</button>
+                            <button onclick="btn()">
+                                <h2 style="color:blue;">&#10540</h2>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <script src="animal.js"></script>

@@ -1,15 +1,18 @@
 .column {
     border: 3px solid black;
     float: left;
-    width: 37%;
+    width: 20%;
     height: 100vh;
     margin: 10px;
+    border-radius: 2ch;
 
 }
 .column2 {
     float: left;
-    width: 60%;
+    width: 75%;
     height: 100vh;
+    margin: 10px;
+    border-radius: 2ch;
 }
 
 .column3 {
@@ -22,6 +25,7 @@
     content: "";
     display: table;
     clear: both;
+    
 }
 table{
     
@@ -34,10 +38,13 @@ table{
 th {
     border: 2px solid black;
     height: 70px;
+    border-radius: 2ch;
 }
 tr,td{
     border: 2px solid black;
     height: 50px;
+    border-radius: 2ch;
+    padding: 10px;
 
 }
 
@@ -62,15 +69,23 @@ body{
 img{
     width: 350px;
     height: 350px;
-    border-top-right-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 15px;
 }
+
 
 button{
     width: 80px;
+    height: 40px;
     padding: 7px;
     outline: none;
     cursor: pointer;
     margin: 10px 30%;
 }
-
+.heart.png{
+    height: 20px;
+    width: 10px;
+}
+.finaleimage{
+    height: 60px;
+    width: 60px;
+}
