@@ -45,8 +45,7 @@ function btn() {
     }
     document.getElementById("labelchange").innerHTML = deftext;
 
-    var rananim = Math.floor(Math.random() * (images.length));
-    document.getElementById("image").innerHTML = images[rananim];
+    
 }
 
 
