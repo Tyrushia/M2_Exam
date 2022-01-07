@@ -50,6 +50,7 @@ function btn() {
 
 function displayResult()
 {
+    
     var table=document.getElementById("table");
     var row =table.insertRow(1);
     var x=row.insertCell(-1);
@@ -90,4 +91,5 @@ function displayResult()
         x.innerHTML='Ezekiel   25';
     }
     x.appendChild(img);
+    btn();
 }
