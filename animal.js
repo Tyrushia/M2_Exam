@@ -11,34 +11,34 @@ function btn() {
 
     
     if (image.getAttribute('src') == 'Beetle.jpg'){
-        deftext= "John" ;
+        deftext= "John   13" ;
     }
     else if (image.getAttribute('src') == 'Elephant.jpg'){
-        deftext = "Jizu" ;
+        deftext = "Jizu   54" ;
     }
     else if (image.getAttribute('src') == 'Komodo.jpg'){
-        deftext = "Gree" ;
+        deftext = "Gree   20" ;
     }
     else if (image.getAttribute('src') == 'Leopard.jpg'){
-        deftext = "Spark" ;
+        deftext = "Spark   12" ;
     }
     else if (image.getAttribute('src') == 'Mantis.jpg'){
-        deftext = "Lightning" ;
+        deftext = "Lightning   7" ;
     }
     else if (image.getAttribute('src') == 'Neko.jpg'){
-        deftext = "Botan" ;
+        deftext = "Botan   6" ;
     }
     else if (image.getAttribute('src') == 'Pagong.jpg'){
-        deftext = "Godzill" ;
+        deftext = "Godzill   68" ;
     }
     else if (image.getAttribute('src') == 'Peko.jpg'){
-        deftext = "Pekora" ;
+        deftext = "Pekora   4" ;
     }
     else if (image.getAttribute('src') == 'Polar.jpg'){
-        deftext = "Joris" ;
+        deftext = "Joris   40" ;
     }
     else if (image.getAttribute('src') == 'Wolf.jpg'){
-        deftext = "Ezekiel" ;
+        deftext = "Ezekiel 25" ;
     }
     else{
         deftext = "Default" ;
@@ -60,34 +60,34 @@ function displayResult()
     
 
     if (image.getAttribute('src')=='Beetle.jpg'){
-        x.innerHTML='John';
+        x.innerHTML='John   13';
     }
     else if (image.getAttribute('src')=='Elephant.jpg'){
-        x.innerHTML='Jizu';
+        x.innerHTML='Jizu   54';
     }
     else if (image.getAttribute('src')=='Komodo.jpg'){
-        x.innerHTML='Gree';
+        x.innerHTML='Gree   20';
     }
     else if (image.getAttribute('src')=='Leopard.jpg'){
-        x.innerHTML='Spark';
+        x.innerHTML='Spark  12';
     }
     else if (image.getAttribute('src')=='Mantis.jpg'){
-        x.innerHTML='Lightning';
+        x.innerHTML='Lightning  7';
     }
     else if (image.getAttribute('src')=='Neko.jpg'){
-        x.innerHTML='Botan';
+        x.innerHTML='Botan   6';
     }
     else if (image.getAttribute('src')=='Pagong.jpg'){
-        x.innerHTML='Godzill';
+        x.innerHTML='Godzill   68';
     }
     else if (image.getAttribute('src')=='Peko.jpg'){
-        x.innerHTML='Pekora';
+        x.innerHTML='Pekora   4';
     }
     else if (image.getAttribute('src')=='Polar.jpg'){
-        x.innerHTML='Joris';
+        x.innerHTML='Joris   40';
     }
     else if (image.getAttribute('src')=='Wolf.jpg'){
-        x.innerHTML='Ezekiel';
+        x.innerHTML='Ezekiel   25';
     }
     x.appendChild(img);
 }
